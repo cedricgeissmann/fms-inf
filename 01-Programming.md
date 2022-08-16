@@ -1,14 +1,24 @@
 ---
-title: "Webseiten"
+title: "Einstieg ins Programmieren"
 ---
 
-Was ist eigentlich eine Webseite? Unter einer Webseite versteht man eine Seite
-die angezeigt wird, wenn man mit dem Internet-Browser eine URL aufruft. Hier
-gibt es bereits einige Begriffe die in dem folgenden Video kurz erklärt werden.
+Beim Programmieren geht es darum das man Abläufe automatisieren kann, damit
+grosse Datenmengen schnell und einfach verarbeitet werden können. Dazu braucht
+man eine Programmiersprache um mit dem Computer zu sprechen. Wir werden hier
+Javascript verwenden, weil man es einfach im Webbrowser benutzen kann und somit
+schon Zugriff auf komplexere Dinge wie Benutzerinterfaces (z.b. Webseiten) hat.
 
+Damit alle direkt arbeiten können, braucht es einen Account bei
+[Replit](https://replit.com/). Wenn Sie einen Account erstellt haben, können
+Sie das folgende [Repl](https://replit.com/@CedricGeissmann/easycoding) öffnen.
+In dem folgenden Video gibt es eine kurze Einführung in das Repl.
+
+---
+TODO: Add video
+---
 ::: {.video}
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/7hWJ9mf0Rro"
+src="https://www.youtube.com/embed/"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
