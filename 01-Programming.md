@@ -29,9 +29,6 @@ herunter und öffnen danach im Browser die folgende URL:
 [vscode](https://vscode.dev). Das folgende Video erklärt wie Sie damit arbeiten
 können.
 
-**Warnung**: Zur Zeit der Aufnahme war das Mikrofon leider defekt... Ein neues
-Video mit Ton wird noch hochgeladen.
-
 ::: {.video}
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/D6_07NrkKLI"
