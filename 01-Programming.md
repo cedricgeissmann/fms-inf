@@ -13,9 +13,6 @@ Damit alle direkt arbeiten können, braucht es einen Account bei
 Sie das folgende [Repl](https://replit.com/@CedricGeissmann/easycoding) öffnen.
 In dem folgenden Video gibt es eine kurze Einführung in das Repl.
 
----
-TODO: Add video
----
 ::: {.video}
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/FPCdwpl4O0M"
@@ -23,7 +20,6 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-<!--
 ## Lokal Arbeiten
 
 Wenn Replit nicht funktioniert, können Sie auch lokal arbeiten. Dazu laden Sie
@@ -33,13 +29,15 @@ herunter und öffnen danach im Browser die folgende URL:
 [vscode](https://vscode.dev). Das folgende Video erklärt wie Sie damit arbeiten
 können.
 
+**Warnung**: Zur Zeit der Aufnahme war das Mikrofon leider defekt... Ein neues
+Video mit Ton wird noch hochgeladen.
+
 ::: {.video}
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/"
+src="https://www.youtube.com/embed/D6_07NrkKLI"
 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
--->
 
 ## Variablen
 
