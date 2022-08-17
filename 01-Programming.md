@@ -107,3 +107,65 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Schreiben Sie ein Programm das Sie mit dem Namen begrüsst den Sie in das
 Eingabefeld eintippen.
 :::
+
+::: {.exercise}
+### Aufgabe 2
+
+Schreiben Sie ein Programm das Ihren Namen als Liste von Zeichen ausgibt.
+:::
+
+::: {.exercise}
+### Aufgabe 3
+
+Schreiben Sie ein Programm das überprüft ob in einer Eingabe das Zeichen `'x'`
+vorkommt.
+:::
+
+::: {.exercise}
+### Aufgabe 4
+
+Schreiben Sie ein Programm welches überprüft ob die Eingabe kürzer wie 12
+Zeichen ist, und länger wie 0.
+:::
+
+::: {.exercise}
+### Aufgabe 5
+
+Schreiben Sie ein Programm das jedes Zeichen in der Eingabe verdoppelt.
+:::
+
+::: {.exercise}
+### Aufgabe 6
+
+Schreiben Sie ein Programm das zählt wie viele Leerzeichen in Ihrer Eingabe
+vorkommen.
+:::
+
+::: {.exercise}
+### Aufgabe 7
+
+Schreiben Sie ein Programm das alle Leerzeichen in der Eingabe mit dem Zeichen
+`_` ersetzt.
+:::
+
+::: {.exercise}
+### Aufgabe 8
+
+Schreiben Sie ein Programm welches überprüft ob nach jedem `.` in der Eingabe
+ein Leerzeichen kommt.
+:::
+
+::: {.exercise}
+### Aufgabe 9
+
+Schreiben Sie ein Programm welches die Eingabe umkehrt.
+:::
+
+::: {.exercise}
+### Aufgabe 10
+
+Schreiben Sie ein Programm das die Eingabe auf ein *Palindrom* überprüft.
+
+**Hinweis**: Ein *Palindrom* ist eine Zeichenkette die vorwärts und rückwärts
+gelesen das gleiche ergibt.
+:::
