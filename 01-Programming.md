@@ -164,3 +164,116 @@ Schreiben Sie ein Programm das die Eingabe auf ein *Palindrom* überprüft.
 **Hinweis**: Ein *Palindrom* ist eine Zeichenkette die vorwärts und rückwärts
 gelesen das gleiche ergibt.
 :::
+
+## Lösungsstrategie und Kommentare
+
+Wenn Sie mit den Aufgaben von oben fertig sind, finden Sie hier noch weitere
+Aufgaben. Versuchen Sie sich bei jeder Aufgabe zuerst zu überlegen wie sie
+diese umsetzen möchten. Das ist unabhängig von der Programmiersprache und ist
+eigentlich die Lösungsstrategie für eine Aufgabe.
+
+Geben Sie für jede Aufgabe die Lösungsstrategie als Kommentar vor der Aufgabe
+an.
+
+**Komentare:** In Javascript ist aller Code der auf `//` folgt, ein Kommentar.
+Das bedeutet für den Computer das der Text nach diesen Zeichen ignoriert wird.
+
+::: {.example}
+### Beispiel
+
+Ersetzen Sie das erste und letzte Zeichen in der Zeichenkette mit dem
+Grossbuchstaben dieses Zeichens.
+
+::: {.code}
+```javascript
+// Aufgabe Beispeil:
+// (1) Wähle das Zeichen an der Stelle 0 und setze es toUpperCase.
+// (2) Wähle das Zeichen an der Stelle input.length - 1 und setze es toUpperCase.
+function beispiel() {
+    let input = read()
+    input = input.split("")
+    // Schritt (1)
+    input[0] = input[0].toUpperCase()
+    
+    //Schritt (2)
+    input[input.length - 1] = input[input.length - 1].toUpperCase()
+    
+    // Liste als Zeichenkette zusammenführen und ausgeben
+    let result = input.join("")
+    print(result)
+}
+```
+:::
+
+:::
+
+## Weitere Aufgabe
+
+::: {.exercise}
+### Aufgabe 11
+
+Ersetzen Sie alle Zeichen der Eingabe mit der Grossbuchstabenversion der
+Zeichens.
+:::
+
+::: {.exercise}
+### Aufgabe 12
+
+Ersetzen Sie alle Zeichen der Eingabe mit der Kleinbuchstabenversion der
+Zeichens.
+:::
+
+::: {.exercise}
+### Aufgabe 13
+
+Ersetzen Sie alle Zeichen der Eingabe mit einem `$` bis Sie ein `k` lesen.
+:::
+
+::: {.exercise}
+### Aufgabe 14
+
+Ersetzen Sie alle Zeichen der Eingabe mit Grossbuchstaben, bis Sie einen
+Grossbuchstaben lesen.
+:::
+
+::: {.exercise}
+### Aufgabe 15
+
+Hängen Sie den ersten Buchstaben der Eingabe vorne und hinten an die
+Zeichenkette an.
+:::
+
+::: {.exercise}
+### Aufgabe 16
+
+Hängen Sie die ersten 3 Buchstaben der Eingabe vorne und hinten an die
+Zeichenkette an. Überprüfen Sie dass die Zeichenkette mindestens 3 Zeichen
+enthält.
+:::
+
+::: {.exercise}
+### Aufgabe 17
+
+Vertauschen Sie das erste und das letzte Zeichen einer Zeichenkette.
+:::
+
+::: {.exercise}
+### Aufgabe 18
+
+Vertauschen Sie das erste und das letzte Zeichen einer Zeichenkette. Dann das
+zweite und das zweitletzte und so weiter, bis Sie in der Mitte angekommen sind.
+:::
+
+::: {.exercise}
+### Aufgabe 19
+
+Löschen Sie das Zeichen in der Mitte der Eingabe, wenn die Eingabe grösser als
+10 oder ungerade ist.
+:::
+
+::: {.exercise}
+### Aufgabe 20
+
+Löschen Sie Zeichen aus der Mitte der Zeichenkette, bis 2 gleiche Zeichen in
+der Mitte stehen.
+:::

@@ -208,5 +208,94 @@ dem Zeichen <code>_</code> ersetzt.</p>
 <p><strong>Hinweis</strong>: Ein <em>Palindrom</em> ist eine
 Zeichenkette die vorwärts und rückwärts gelesen das gleiche ergibt.</p>
 </section>
+<h2 id="lösungsstrategie-und-kommentare">Lösungsstrategie und
+Kommentare</h2>
+<p>Wenn Sie mit den Aufgaben von oben fertig sind, finden Sie hier noch
+weitere Aufgaben. Versuchen Sie sich bei jeder Aufgabe zuerst zu
+überlegen wie sie diese umsetzen möchten. Das ist unabhängig von der
+Programmiersprache und ist eigentlich die Lösungsstrategie für eine
+Aufgabe.</p>
+<p>Geben Sie für jede Aufgabe die Lösungsstrategie als Kommentar vor der
+Aufgabe an.</p>
+<p><strong>Komentare:</strong> In Javascript ist aller Code der auf
+<code>//</code> folgt, ein Kommentar. Das bedeutet für den Computer das
+der Text nach diesen Zeichen ignoriert wird.</p>
+<section id="beispiel" class="example">
+<h3>Beispiel</h3>
+<p>Ersetzen Sie das erste und letzte Zeichen in der Zeichenkette mit dem
+Grossbuchstaben dieses Zeichens.</p>
+<div class="code">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">// Aufgabe Beispeil:</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">// (1) Wähle das Zeichen an der Stelle 0 und setze es toUpperCase.</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">// (2) Wähle das Zeichen an der Stelle input.length - 1 und setze es toUpperCase.</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">beispiel</span>() {</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> input <span class="op">=</span> <span class="fu">read</span>()</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    input <span class="op">=</span> input<span class="op">.</span><span class="fu">split</span>(<span class="st">&quot;&quot;</span>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Schritt (1)</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    input[<span class="dv">0</span>] <span class="op">=</span> input[<span class="dv">0</span>]<span class="op">.</span><span class="fu">toUpperCase</span>()</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="co">//Schritt (2)</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    input[input<span class="op">.</span><span class="at">length</span> <span class="op">-</span> <span class="dv">1</span>] <span class="op">=</span> input[input<span class="op">.</span><span class="at">length</span> <span class="op">-</span> <span class="dv">1</span>]<span class="op">.</span><span class="fu">toUpperCase</span>()</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Liste als Zeichenkette zusammenführen und ausgeben</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    <span class="kw">let</span> result <span class="op">=</span> input<span class="op">.</span><span class="fu">join</span>(<span class="st">&quot;&quot;</span>)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="fu">print</span>(result)</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+</div>
+</section>
+<h2 id="weitere-aufgabe">Weitere Aufgabe</h2>
+<section id="aufgabe-11" class="exercise">
+<h3>Aufgabe 11</h3>
+<p>Ersetzen Sie alle Zeichen der Eingabe mit der Grossbuchstabenversion
+der Zeichens.</p>
+</section>
+<section id="aufgabe-12" class="exercise">
+<h3>Aufgabe 12</h3>
+<p>Ersetzen Sie alle Zeichen der Eingabe mit der Kleinbuchstabenversion
+der Zeichens.</p>
+</section>
+<section id="aufgabe-13" class="exercise">
+<h3>Aufgabe 13</h3>
+<p>Ersetzen Sie alle Zeichen der Eingabe mit einem <code>$</code> bis
+Sie ein <code>k</code> lesen.</p>
+</section>
+<section id="aufgabe-14" class="exercise">
+<h3>Aufgabe 14</h3>
+<p>Ersetzen Sie alle Zeichen der Eingabe mit Grossbuchstaben, bis Sie
+einen Grossbuchstaben lesen.</p>
+</section>
+<section id="aufgabe-15" class="exercise">
+<h3>Aufgabe 15</h3>
+<p>Hängen Sie den ersten Buchstaben der Eingabe vorne und hinten an die
+Zeichenkette an.</p>
+</section>
+<section id="aufgabe-16" class="exercise">
+<h3>Aufgabe 16</h3>
+<p>Hängen Sie die ersten 3 Buchstaben der Eingabe vorne und hinten an
+die Zeichenkette an. Überprüfen Sie dass die Zeichenkette mindestens 3
+Zeichen enthält.</p>
+</section>
+<section id="aufgabe-17" class="exercise">
+<h3>Aufgabe 17</h3>
+<p>Vertauschen Sie das erste und das letzte Zeichen einer
+Zeichenkette.</p>
+</section>
+<section id="aufgabe-18" class="exercise">
+<h3>Aufgabe 18</h3>
+<p>Vertauschen Sie das erste und das letzte Zeichen einer Zeichenkette.
+Dann das zweite und das zweitletzte und so weiter, bis Sie in der Mitte
+angekommen sind.</p>
+</section>
+<section id="aufgabe-19" class="exercise">
+<h3>Aufgabe 19</h3>
+<p>Löschen Sie das Zeichen in der Mitte der Eingabe, wenn die Eingabe
+grösser als 10 oder ungerade ist.</p>
+</section>
+<section id="aufgabe-20" class="exercise">
+<h3>Aufgabe 20</h3>
+<p>Löschen Sie Zeichen aus der Mitte der Zeichenkette, bis 2 gleiche
+Zeichen in der Mitte stehen.</p>
+</section>
 </body>
 </html>
