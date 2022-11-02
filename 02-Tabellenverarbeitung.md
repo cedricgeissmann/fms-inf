@@ -139,3 +139,14 @@ eine Summe über einen Bereich nicht alles abdeckt, so können sehr einfach
 Fehler passieren die erst sehr spät oder auch gar nicht entdeckt werden. Prüfen
 Sie also immer nach ob die Bereiche Ihrer Formeln auch stimmen.
 :::
+
+## Fertige Tabelle
+
+Sie können Dokumente auch teilen, da können Sie auch einstellen wie andere Ihr
+Dokument verwenden dürfen. Ich habe hier die Budgettabelle für Sie verfügbar
+gemacht, aber so dass Sie diese nicht editieren können. Sie können diese aber
+in Ihren eigenen Arbeitsbereich kopieren und daran arbeiten.
+
+<center>
+[Budgettabelle](https://sblch-my.sharepoint.com/:x:/g/personal/cedric_geissmann_sbl_ch/EWyd0eOm8opDh5orjL7WsUsB7_PJucvZaDSRS9c6v9qhtw?e=Cb98Et)
+</center>
