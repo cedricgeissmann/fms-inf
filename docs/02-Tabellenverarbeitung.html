@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Tabellenverarbeitung</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="main.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Tabellenverarbeitung</h1>
+</header>
+<p>Beim Arbeiten mit Tabellen, geht es oft darum das Sie Listen in
+tabellarischer Form darstellen. Oftmals werden in den Tabellen auch
+automatische Berechnungen durchgeführt. Ein einfaches Beispiel wo oft
+eine Tabellenkalkulation verwendet wird, ist ein Monatsbudget. Wir
+werden nun Schritt für Schritt eine Budgettabelle erstellen und dabei
+die Grundlagen der Tabellenkalkulation entdecken.</p>
+<p>Am Ende könnte ein Budgetplan in etwa so aussehen: <a
+href="res/01-Budgetplan.pdf">Budgetplan.pdf</a></p>
+<h2 id="neue-tabelle-erstellen">Neue Tabelle erstellen</h2>
+<p>Damit es für alle gleich aussieht, und wir keine Probleme mit
+verschiedenen Betriebssystemen oder Programmversionen haben, arbeiten
+wir im Browser. Dazu loggen Sie sich auf <a
+href="https://portal.office.com">portal.office.com</a> ein.</p>
+<p>Auf der linken Seite finden Sie eine Schaltfläche
+<code>Erstellen</code>. Klicken Sie diese an, und wählen Sie eine neue
+Arbeitsmappe. Diese sollte sich dann gleich öffnen.</p>
+<h2 id="dokumente-organisieren-und-benennen">Dokumente organisieren und
+benennen</h2>
+<p>Das erste was Sie mit einer neuen Datei machen sollen, ist diese mit
+einem vernünftigen Namen an einem Ort zu speichern wo Sie das ganze
+wieder finden. Dazu sehen Sie in dem grünen Band ganz oben den Namen der
+Datei. Klicken Sie da drauf und speichern die Datei mit einem sinnvollen
+Namen.</p>
+<section id="hinweis" class="example">
+<h3>Hinweis</h3>
+<p>Wenn Sie möchten das Ihre Dateien geordnet sind, können Sie einfach
+Zahlen vor die Datei hängen. Damit sind diese immer alphabetisch
+sortiert, und für jetzt auch nach Kapitel eingeteilt.</p>
+</section>
+<section id="hinweis-1" class="example">
+<h3>Hinweis</h3>
+<p>Sie sollten keine Leerzeichen in Dateinamen verwenden. Brauchen Sie
+stattdessen das <code>-</code> Zeichen.</p>
+</section>
+<h2 id="gestaltung-von-zellen">Gestaltung von Zellen</h2>
+<p>Bei der Gestaltung der Zellen hat man sehr viele Möglichkeiten. Man
+kann Zellen verbinden, die Farbe ändern und die Schriftform verändern.
+Bei der Gestaltung sollte folgende Regel aber immer gelten, weniger ist
+mehr. In erster Linie geht es um die Verarbeitung und Eingabe der Daten,
+die Präsentation der Daten sollte separat davon gemacht werden. Da wir
+aber noch ganz am Anfang sind, und nur sehr einfache Daten verarbeiten,
+legen wir schon Wert auf eine vernünftige Darstellung.</p>
+<p>Wir werden nun zusammen einige Beispiele für Formate durchgehen.
+Dabei werden Sie die folgenden Dinge lernen:</p>
+<ul>
+<li>Zellen verbinden</li>
+<li>Schriftform verändern</li>
+<li>Hintergrundfarbe verändern</li>
+<li>Schriftfarbe verändern</li>
+<li>Zellenumrandung anpassen</li>
+</ul>
+<section id="hinweis-2" class="example">
+<h3>Hinweis</h3>
+<p>Wenn Sie einen Rechtsklick auf eine Zelle machen, dann sehen Sie ein
+Menü wo Sie all die Optionen angezeigt bekommen.</p>
+</section>
+<section id="hinweis-3" class="example">
+<h3>Hinweis</h3>
+<p>Die Schaltfläche mit dem Pinsel lässt Sie Formate auf andere Zellen
+übertragen. Das kann Dinge sehr vereinfachen, kann aber auch zu
+Problemen führen wenn Sie nicht alle Formatierungen übernehmen
+möchten.</p>
+</section>
+<h2 id="formatierung-des-zelleninhalts">Formatierung des
+Zelleninhalts</h2>
+<p>Da man in der Tabellenkalkulation oft Berechnungen anstellen möchte,
+aber die Daten auch lesbar angezeigt bekommen, gibt es die Möglichkeit
+Formatierungen für Zellen zu verwenden. Dabei kann man einstellen
+welches Format ein Datum haben sollte, oder wie eine Zahl angezeigt
+werden soll.</p>
+<section id="achtung" class="example">
+<h3>ACHTUNG</h3>
+<p>Hier sollten Sie unbedingt aufpassen, denn in der Ansicht können so
+Daten verloren gehen, wenn sie beispielsweise gerundet werden. Dadurch
+wird das Kopieren aus einer Tabelle gefährlich, und sollte immer
+hinterfragt werden.</p>
+</section>
+<section id="hinweis-4" class="example">
+<h3>Hinweis</h3>
+<p>Wenn Sie mit einem Datum arbeiten, kann es auch passieren das Fehler
+auftreten. Je nach Format das verwendet wird, können beispielsweise Tag
+und Monat vertauscht werden. Dies passiert oft wenn der Computer
+versucht zu erkennen ob es sich um ein Datum handelt oder nicht, und
+wenn die gleiche Datei dann auf verschiedenen Computern oder mit
+verschiedenen Versionen eines Programms geöffnet wird.</p>
+</section>
+<h2 id="bedingte-formatierung">Bedingte Formatierung</h2>
+<p>Sie können Formate auch <em>bedingt</em> verwenden, also wenn eine
+Zahl grösser als 0 ist, oder auch ganz andere Dinge. Wählen Sie dazu
+eine Zelle an, und geben Sie oben im Suchfenster <strong>Regeln
+verwalten</strong> ein. Dann öffnet sich auf der rechten Seite ein neues
+Menü, welches alle Regeln für diese Zelle enthält.</p>
+<p>Wir erstellen nun gemeinsam eine Regel, welche uns das Saldo
+<code>rot</code> einfärbt, wenn es negativ ist.</p>
+<h2 id="tabellen-erstellen">Tabellen erstellen</h2>
+<p>Sie können Tabellen innerhalb einer Tabellenkalkulation erstellen.
+Die Idee dahinter, ist das Sie einen Bereich haben, der einer Tabelle
+entspricht. Innerhalb einer Tabelle können Sie dann Spalten sortieren,
+oder filtern. Das kann sehr praktisch sein, wenn Sie schnell etwas
+suchen müssen.</p>
+<p>Wählen Sie den Bereich an den Sie zu einer Tabelle zusammenfügen
+möchten, geben Sie oben im Suchfeld Tabelle ein, und erstellen Sie eine
+neue Tabelle.</p>
+<h2 id="berechnungen-automatisieren">Berechnungen automatisieren</h2>
+<p>Sie können mit einer Tabellenkalkulation auch Berechnungen erstellen
+lassen. Dazu müssen Sie am Anfang der Zelle einfach ein <code>=</code>
+eingeben, dann können Sie verschiedene Formeln auf alle möglichen Zelle
+anwenden lassen.</p>
+<p>Wir werden dies gleich zusammen machen, um das Saldo zu
+berechnen.</p>
+<section id="achtung-1" class="example">
+<h3>ACHTUNG</h3>
+<p>Es gilt vorsichtig zu sein bei automatischen Berechnungen. Es kann
+sein das eine Summe über einen Bereich nicht alles abdeckt, so können
+sehr einfach Fehler passieren die erst sehr spät oder auch gar nicht
+entdeckt werden. Prüfen Sie also immer nach ob die Bereiche Ihrer
+Formeln auch stimmen.</p>
+</section>
+</body>
+</html>
